@@ -209,7 +209,6 @@ Tests principaux :
 
 Les captures d’écran se trouvent dans le dossier `screenshoots/`.
 
-```markdown
 ### Écran d'inscription
 ![Inscription](screenshoots/01_Inscription.jpg)
 
@@ -236,7 +235,6 @@ Les captures d’écran se trouvent dans le dossier `screenshoots/`.
 
 ### Export CSV
 ![Export CSV](screenshoots/09_Export_CSV.jpg)
-```
 
 ---
 
