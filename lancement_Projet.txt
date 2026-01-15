@@ -1,0 +1,3 @@
+cd "C:\Users\miguel\Desktop\Projet janvier 2026\Gestion_Stock_Java_Swing"
+mvn -q -DskipTests=true compile
+mvn -q -DskipTests=true exec:java

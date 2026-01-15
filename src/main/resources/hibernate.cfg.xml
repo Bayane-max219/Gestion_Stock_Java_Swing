@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!-- Connexion MySQL WAMP -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/gestion_stock?useSSL=false&amp;serverTimezone=UTC</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password"></property>
+
+        <!-- Options Hibernate -->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <!-- update : crée / met à jour les tables automatiquement -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- Entités mappées -->
+        <mapping class="com.miguel.gestionstock.entity.Product"/>
+        <mapping class="com.miguel.gestionstock.entity.StockMovement"/>
+        <mapping class="com.miguel.gestionstock.entity.UserAccount"/>
+    </session-factory>
+</hibernate-configuration>

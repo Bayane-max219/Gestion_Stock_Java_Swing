@@ -1,0 +1,16 @@
+com\miguel\gestionstock\repository\ProductRepository.class
+com\miguel\gestionstock\util\HibernateUtil.class
+com\miguel\gestionstock\entity\StockMovement.class
+com\miguel\gestionstock\repository\UserRepository.class
+com\miguel\gestionstock\service\StockMovementService.class
+com\miguel\gestionstock\ui\LoginFrame.class
+com\miguel\gestionstock\repository\StockMovementRepository.class
+com\miguel\gestionstock\ui\ProductFormDialog.class
+com\miguel\gestionstock\entity\UserAccount.class
+com\miguel\gestionstock\service\UserService.class
+com\miguel\gestionstock\Main.class
+com\miguel\gestionstock\ui\MainFrame.class
+com\miguel\gestionstock\ui\StockMovementDialog.class
+com\miguel\gestionstock\service\ProductService.class
+com\miguel\gestionstock\ui\RegisterDialog.class
+com\miguel\gestionstock\entity\Product.class
